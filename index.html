@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tiba tiba 23</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/qsy7khk.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script>
+      document.documentElement.className = "js";
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+  </head>
+  <body class="loading">
+    <main>
+      <div class="intro">
+        <h1 class="intro__title" style="position: relative">
+          <img
+            style="
+              width: 70px;
+              height: 70px;
+              position: absolute;
+              top: -5%;
+              left: 9%;
+            "
+            src="img/girl.png"
+            alt=""
+            class="gambarsarah"
+          />
+          <div style="display: flex; flex-direction: column; gap: 2rem">
+            <span class="intro__title-pre">Happy Birthday,</span>
+            <span class="intro__title-pre">Sarah Sahda Shabirah🎂</span>
+          </div>
+          <span style="color: white" class="intro__title-sub"
+            >Roses Are <strong style="color: red">Red</strong>, sky is
+            <strong style="color: rgb(96, 157, 243)">blue...</strong></span
+          >
+          <span style="color: white" class="intro__title-sub"
+            >I just wanted to say, happy birthday to you!</span
+          >
+        </h1>
+        <span class="intro__info"
+          >please just scroll for more surprise and wishes</span
+        >
+      </div>
+      <div class="content-wrap">
+        <div class="content">
+          <div class="title-wrap">
+            <span class="title title--up">Ciee</span>
+            <span class="title title--down">Ultah</span>
+          </div>
+        </div>
+        <div class="content content--layout content--layout-1">
+          <svg
+            class="content__img content__img--1"
+            width="896"
+            height="1344"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 896 1344"
+          >
+            <defs>
+              <filter id="displacementFilter">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0.03"
+                  numOctaves="3"
+                  result="noise"
+                />
+                <feDisplacementMap
+                  in="SourceGraphic"
+                  in2="noise"
+                  scale="50"
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                />
+              </filter>
+              <mask id="circleMask">
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  r="0"
+                  data-value-final="820"
+                  fill="white"
+                  class="mask"
+                  style="filter: url(#displacementFilter)"
+                />
+              </mask>
+            </defs>
+            <image
+              xlink:href="img/potrait.jpeg"
+              width="896"
+              height="1344"
+              mask="url(#circleMask)"
+            />
+          </svg>
+          <h6
+            class="content__text"
+            style="color: white !important; font-size: 1rem !important"
+          >
+            Selamat ulang tahun sarah, si pecinta manis2, pantesan aja manis
+            bgtt😳
+          </h6>
+        </div>
+      </div>
+      <div class="content-wrap">
+        <div class="content">
+          <div class="title-wrap">
+            <span class="title title--up">Harapan</span>
+            <span class="title title--down">Kedepan?</span>
+          </div>
+        </div>
+        <div class="content content--layout content--layout-2">
+          <svg
+            class="content__img content__img--2"
+            width="1000"
+            height="450"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 1000 450"
+          >
+            <defs>
+              <filter id="displacementFilter2">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0.1"
+                  numOctaves="1"
+                  result="noise"
+                />
+                <feDisplacementMap
+                  in="SourceGraphic"
+                  in2="noise"
+                  result="displacement"
+                  scale="100"
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                />
+                <feMorphology
+                  operator="dilate"
+                  radius="2"
+                  result="morph"
+                  in="displacement"
+                />
+              </filter>
+              <mask id="circleMask2">
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  r="0"
+                  data-value-final="950"
+                  fill="white"
+                  class="mask"
+                  style="filter: url(#displacementFilter2)"
+                />
+              </mask>
+            </defs>
+            <image
+              xlink:href="img/landscape.png"
+              width="1000"
+              height="450"
+              mask="url(#circleMask2)"
+            />
+          </svg>
+          <h6
+            class="content__text"
+            style="color: white !important; font-size: 1rem !important"
+          >
+            diberi kesehatan, keberuntungan, kelancaran, bisa bermanfaat, diberi
+            hati yg lapang, ibadah semakin lancar, bisa langsing n glowing
+            shay☺️
+          </h6>
+        </div>
+      </div>
+      <div
+        style="
+          margin: 50vh 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+          "
+        >
+          <span class="intro__title-pre">Habis ini ada apasi??</span>
+          <span class="intro__title-pre">Just Scroll😆</span>
+        </div>
+      </div>
+      <section style="display: flex; padding: 0 24px">
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Deka</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari deka:
+              </p>
+            </div>
+            <div class="image-content deka animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <strong>Hai Sarah, thankyou ya</strong>
+            <p>
+              di umur kamu yg 23 tahun ini uda bisa jadi sarah yg hebat bgt, km
+              uda ngelaluin banyak bgt hal, and thankyou for being lovely &
+              cheerfull person, makasi juga uda mau jadi temen aku. Kalau km ada
+              apa2, butuh sesuatu, atau sekedar pengen cerita, monggo. jgn
+              terlalu nutup diri & mendem semuanya sendiri yaa sar, km punya
+              deka dan friendsa wkwkwk. walaupun kita ga sering ketemu aku bakal
+              ada buat kamu kok hihiii.
+            </p>
+            <p>
+              semoga di tahun tahun yg akan datang, makin banyak yg sayang sm
+              kamu, makin sukses, makin jaya jaya jaya!!! hopefully kita bisa
+              sama-sama terus sampe keriput & gigi ompong.
+            </p>
+            <p>last, Happy Birthday🤍</p>
+          </div>
+        </div>
+        <div style="flex-basis: 50%" class="testes"></div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div style="flex-basis: 50%" class="testes"></div>
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Ratu</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari ratu:
+              </p>
+            </div>
+            <div class="image-content ratu animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              hi sarahh!!! happy birthday yaaaa cieee udahh tuaa ni yaaa, semoga
+              di umur yang sekarang ini lo bisa menjadi pribadi yg lebih baik
+              lagi yg sukses selalu yg sehat selalu yg semangat menjalani setiap
+              hari-hari di kehidupan looo dan semoga u always have a positive
+              mind over everything yaa sarrr tenang banyak yg sayang sama lo
+              dont be scared and dont look what other people achieve focus on ur
+              path yaaaa pokonyaaa gue percaya lo bisa lewatin semuanya dengan
+              baikkk!!!
+            </p>
+            <p>
+              Ohhiya kurang2in berantem sm iqbal kasian nih jaktim mate gue lo
+              marahin terus wkwkkw *tp gpp deng klo dia ngeselin marahin aja🤪*
+              tp pokonyaa lo baik2 trs yaa sama iqbal dan semogaa lo jg baik2
+              terus sm diri lo sendiri okayyy lov uuu sarrrr missss uuuuu
+              🤗🤛🏻🤜🏻💗 -EXkostmatelt2pojokkesayangan
+            </p>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Sevina</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari sevina:
+              </p>
+            </div>
+            <div class="image-content sevina animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              Happy 23rd birthday Sarah!🥳✨ semakin bersinar karirnya, bahagia
+              selalu, can’t wait to hear about ur many happy stories and new
+              achievements!🥰 keep spreading kindness & positivity to ur
+              surroundings! much love🤍🤍
+            </p>
+          </div>
+        </div>
+        <div style="flex-basis: 50%" class="testes"></div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div style="flex-basis: 50%" class="testes"></div>
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Ecca</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari ecca:
+              </p>
+            </div>
+            <div class="image-content ecca animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              hmm selamat ultah y sar‼️ waw tuwir bingbing 23 taun bangga ga kon
+              sek bisa idup smpe umur segitu? huhu semangat dan selamat y sar,
+              semangat buat kedepannya pasti makin banyakse ujian idupmu,
+              semangat ngejar goalsmu, pasti bisa bisaa ez pz kok buat km🫵🏼
+              selamat udh berhasil sampe dititik ini! udh bs ngehandle dirimu dw
+              selama 23 thn, selamat sampe skrg masi jd sarah yws sing gt itu(?)
+              makasi ya sar uda slalu jd org baik dan ttp berusaha jd yg terbaik
+              ke org disekitarmu masio ga sempurna tp ya kl sempurna kan tuhan,
+              makasi jg wes bertahan mbe kacau e dunia iki, makasi uda sabar ke
+              semua orang (kecuali aku:)), makasi pokonya km keren kok sar tp
+              gausa gr yo ojo cepet puas ;) sehat sehat ya sar, gausa sakit2 an
+              hm, apalagi sakit ati y ojok sampe awas ae🔪 dijaga yoo selain
+              keperawananmu dijaga akhlak dan hatine🤲🏼 happy bday‼️ gasabar dh
+              menanti persahabatan kita yg ga seberapa ini kedepannya akan spt
+              apa wkwk🥳<3
+            </p>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Vero</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari vero:
+              </p>
+            </div>
+            <div class="image-content vero animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              Selamatttt ulangg tahun sarahhhh!!! Semoga panjang umur sehat
+              selalu, dilancarkan rezekinya, makin sukses kedepannya sama makin
+              langgeng sama iqball yaa!! Aamiinnnn😇😇❤️ Ayoo kita ketemuuu
+              terus doubledatee WKWK😂😘😘❤️❤️
+            </p>
+          </div>
+        </div>
+        <div style="flex-basis: 50%" class="testes"></div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div style="flex-basis: 50%" class="testes"></div>
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Nanda</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari nanda:
+              </p>
+            </div>
+            <div class="image-content nanda animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>apa yang diulang tapi bikin tua? ulang tahun</p>
+            <p>
+              happy edi sarah, evaluasi selama 23 tahun iki sekedar tolong ojok
+              garing, receh, dan diperbaiki standart becandamu soale sumpah
+              jeblok banget. Terus, semoga diberi rezeki yang cukup terus buat
+              sarah, iqbal, dan kedua keluarga calon kedua mempelai silahkan
+              saling mengetahui.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Dandi</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari dandi:
+              </p>
+            </div>
+            <div class="image-content dandi animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              Met ultah Sarah. Tenang jika harimu buruk ada badut iqbal yang
+              siap menghiburmu xixixi
+            </p>
+          </div>
+        </div>
+        <div style="flex-basis: 50%" class="testes"></div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div style="flex-basis: 50%" class="testes"></div>
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Zetia</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari zetia:
+              </p>
+            </div>
+            <div class="image-content zetia animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              selamat ulang tahun sarah!! i might be your new friends but i felt
+              like thousand year ago knowing you, selamat bertambah umur semoga
+              rezeki selalu berlimpah dan diberikan umur yang panjang, sukses
+              selalu🤍
+            </p>
+          </div>
+        </div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Fathur</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari fathur:
+              </p>
+            </div>
+            <div class="image-content fathur animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              Hello Sarah, the one and only of my tripple S. Seems like you've
+              been doing good on your early long road, wish god bless your
+              performance on work, mental & body health, and many things that
+              could help u to cheers people's life. Happy birthday~
+            </p>
+          </div>
+        </div>
+        <div style="flex-basis: 50%" class="testes"></div>
+      </section>
+      <section style="display: flex; padding: 0 24px">
+        <div style="flex-basis: 50%" class="testes"></div>
+        <div class="wrap animate pop yuhu">
+          <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+              <h1 class="animate slide-left pop delay-4">Dadun</h1>
+              <p
+                class="animate slide-left pop delay-5"
+                style="color: white; margin-bottom: 2.5rem"
+              >
+                ini pesan dari dadun:
+              </p>
+            </div>
+            <div class="image-content dadun animate slide delay-5"></div>
+          </div>
+          <div class="text">
+            <p>
+              Selamat ulang sarah sahabatku🥳 panjang umur, sehat selalu, lancar
+              rejekinya, dan semoga impiannya tercapai semua🙏🏼 maafin aku ya
+              sahabatku kalo ada salah🙏🏼 sukses buat kamu sahabatku
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="content-wrap">
+        <div class="content">
+          <div class="title-wrap">
+            <span class="title title--up">Love</span>
+            <span class="title title--down">You</span>
+          </div>
+        </div>
+        <div class="content content--layout content--layout-3">
+          <svg
+            class="content__img content__img--3"
+            width="1000"
+            height="560"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 1000 560"
+          >
+            <defs>
+              <filter id="displacementFilter3">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0.02"
+                  numOctaves="3"
+                  result="noise"
+                />
+                <feDisplacementMap
+                  in="SourceGraphic"
+                  in2="noise"
+                  scale="80"
+                  result="displacement"
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                />
+              </filter>
+              <mask id="pathMask">
+                <path
+                  d="M 0 280 Q 500 280 1000 280 Q 500 280 0 280"
+                  data-value-final="M 0 280 Q 500 800 1000 280 Q 500 -200 0 280"
+                  fill="white"
+                  class="mask"
+                  style="filter: url(#displacementFilter3)"
+                />
+              </mask>
+            </defs>
+            <image
+              xlink:href="img/us.png"
+              width="1000"
+              height="560"
+              mask="url(#pathMask)"
+            />
+          </svg>
+          <h6
+            class="content__text"
+            style="color: white !important; font-size: 1rem !important"
+          >
+            I am so proud of this beautiful strong girl, she deserves more than
+            the world. she's a strong individual girl. he did his best and
+            that's all i ask. thank you for being here for me, i am grateful
+            that you came into my life. she has been there and listened to all
+            my problems, I owe her so much. just in case she didn't get what he
+            wanted, I wanted to be the one to save her. if until now she hasn't
+            been so happy, that's coming from me. I'm sorry and I'm so proud of
+            you.<br />
+            23, be nice for her🫶🏻
+          </h6>
+        </div>
+        <p>
+          Made with
+          <a href="https://www.instagram.com/miqblmaulana/">❤️</a>
+        </p>
+      </div>
+    </main>
+    <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/Flip.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/lenis.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
