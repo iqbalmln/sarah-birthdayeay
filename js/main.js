@@ -1132,12 +1132,12 @@ const playButton = document.getElementById("playButton");
 const audioPlayer = document.getElementById("audioPlayer");
 audioPlayer.play();
 
-// playButton.addEventListener("click", () => {
-//   if (audioPlayer.paused) {
-//     audioPlayer.play();
-//     playButton.textContent = "Pause";
-//   } else {
-//     audioPlayer.pause();
-//     playButton.textContent = "Play";
-//   }
-// });
+playButton.addEventListener("click", () => {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+    playButton.textContent = "Pause";
+  } else {
+    audioPlayer.pause();
+    playButton.textContent = "Play";
+  }
+});

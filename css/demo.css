@@ -439,3 +439,11 @@ h1 {
     display: none;
   }
 }
+.button_audio {
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  font-size: 0.5rem;
+  border: none;
+}
