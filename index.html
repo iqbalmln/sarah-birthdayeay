@@ -46,11 +46,11 @@
     <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
   </head>
   <body class="loading">
-    <audio autoplay loop>
-      <source src="1975.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
     <main>
+      <div style="position: fixed; top: 12px; right: 12px; z-index: 999;">
+        <!-- <button class="button_audio" id="playButton">Click Me!</button> -->
+        <audio id="audioPlayer" src="1975.mp3"></audio>
+      </div>
       <div class="intro">
         <h1 class="intro__title" style="position: relative">
           <img
@@ -581,7 +581,7 @@
         </div>
         <p>
           Made with
-          <a href="https://www.instagram.com/miqblmaulana/">❤️</a>
+          <a href="https://www.instagram.com/miqblmaulana/" target="_blank">❤️</a>
         </p>
       </div>
     </main>
